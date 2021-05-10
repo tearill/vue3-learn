@@ -4,11 +4,9 @@
 
 ### code style format
 
--   editor config
-
-    -   create editor config file  
-         .editorconfig
-
+- editor config
+    - create editor config file
+        .editorconfig
         ```bash
         # Editor configuration, see http://editorconfig.org
 
@@ -27,41 +25,40 @@
         max_line_length = off
         trim_trailing_whitespace = false
         ```
+    - install plugin for VSCode -- EditorConfig for VS Code
 
-    -   install plugin for VSCode -- EditorConfig for VS Code
-
--   Prettier
-
-    -   use Prettier
+- Prettier
+    - use Prettier
         ```bash
         npm i prettier -D
         ```
-    -   create prettier config file(enable json/yml/yaml/js etc.)  
-         .prettierrc
+    - create prettier config file(enable json/yml/yaml/js etc.)
+        .prettierrc
         ```json
         {
-        	"useTabs": true,
-        	"tabWidth": 4,
-        	"printWidth": 100,
-        	"singleQuote": true,
-        	"trailingComma": "none",
-        	"bracketSpacing": true,
-        	"semi": true
+            "useTabs": true,
+            "tabWidth": 4,
+            "printWidth": 100,
+            "singleQuote": true,
+            "trailingComma": "none",
+            "bracketSpacing": true,
+            "semi": true
         }
         ```
-    -   format code
+    - format code
         ```bash
         npx prettier --write .
         ```
 
--   Eslint
-    -   install
+- Eslint
+    - install
     ```bash
     npx eslint --init
     ```
-    -   init
+    - init
     ```bash
     npx eslint --init
     ```
+
 
 ## Composition Api
